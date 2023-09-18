@@ -55,7 +55,7 @@
     display: flex;
    flex-direction: column;
     background-color: cadetblue;
-    width: 17%;
+    width: 20%;
     height: 40%;
     padding: 10px;
     margin: 0 10px;
@@ -67,7 +67,9 @@
   
 }
 
+
 .res-logo{
     width: 100%;
+    height:50%;
     object-fit:cover;
 }

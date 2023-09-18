@@ -90,3 +90,18 @@ now we directly use props
 *ConfigDriven UI*
 controling/creating  the UI using data 
 Ui is Driven by Config (Data/API)
+
+map function 
+{
+      resList.map((restaurant) => (
+          <ResturantCard key={restaurant.info.id} resData={restaurant} />
+        ))
+}
+--key is always required when we use map function 
+--react dont prefer to use indexes as a key like below ex.
+
+{
+      resList.map((restaurant,index) => (
+          <ResturantCard key={index} resData={restaurant} />
+        ))
+}
