@@ -105,3 +105,8 @@ map function
           <ResturantCard key={index} resData={restaurant} />
         ))
 }
+
+React is fast bcz it doing efficient DOM Manipulation , bcz it has a virtual dom (virtual represntation of all tags , virtual dom is a js object )
+
+*Hooks*
+whenever a state variable changes /updted react rerender the component 
