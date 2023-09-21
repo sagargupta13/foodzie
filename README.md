@@ -110,3 +110,8 @@ React is fast bcz it doing efficient DOM Manipulation , bcz it has a virtual dom
 
 *Hooks*
 whenever a state variable changes /updted react rerender the component 
+
+EP-6 
+Monolith architecture: A monolithic architecture is a traditional model of a software program, which is built as a unified unit that is self-contained and independent from other applications
+
+microservices architecture : A microservices architecture, also simply known as microservices, is an architectural method that relies on a series of independently deployable services. These services have their own business logic and database with a specific goal. Updating, testing, deployment, and scaling occur within each service. 
