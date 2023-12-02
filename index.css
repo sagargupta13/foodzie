@@ -15,6 +15,11 @@
 .logo-container > img {
     width: 12%;
 }
+
+.name-logo{
+    padding: 10px 10px;
+    color: cadetblue;
+}
 .nav-items{
     display: flex;
     flex-direction: row;
@@ -37,10 +42,38 @@
     margin: 10px 25px;
 }
 
-.search{
-    padding: 20px 50px;
+.login-btn{
+    padding: 0px 10px;
+    cursor: pointer;
 }
 
+.search{
+    padding: 0px 160px;
+    margin-top: 30px;
+    
+}
+.search-box{
+    padding: 8px;
+    border-radius:5px;
+    border-style: none;
+}
+
+.filter{
+    display: flex;
+}
+
+.filter-btn{
+    padding: 5px;
+    margin: 30px 20px;
+    cursor: pointer;
+    border-style:ridge;
+    border-radius:5px;
+}
+
+
+.body{
+    background-color: beige;
+}
 .res-continer{
     background-color: beige;
     display: flex;
@@ -74,8 +107,38 @@
     object-fit:cover;
 }
 
-.filter-btn{
-    padding: 8px;
-    margin: 10px;
-    cursor: pointer;
+
+/* css for shimmer cards  */
+.page-style{
+    background-color: beige;
+    height: 220vh;
 }
+.shimmer-container{
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 50px 100px;
+}
+
+.shimmer-cards{
+    display: flex;
+   flex-direction: column;
+    background-color: cadetblue;
+    opacity: 0.6;
+    width: 20%;
+    height: 60%;
+    padding: 10px;
+    margin: 20px 10px;
+   
+}
+
+.card-img{
+    width: 100%;
+    height:40%;
+    object-fit:cover;
+    background-color: #f0f0f0;
+}
+

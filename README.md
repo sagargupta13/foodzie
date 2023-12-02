@@ -106,7 +106,7 @@ map function
         ))
 }
 
-React is fast bcz it doing efficient DOM Manipulation , bcz it has a virtual dom (virtual represntation of all tags , virtual dom is a js object )
+React is fast bcz it doing efficient DOM Manipulation(react-fiber) , bcz it has a virtual dom (virtual represntation of all tags , virtual dom is a js object )
 
 *Hooks*
 whenever a state variable changes /updted react rerender the component 
@@ -115,3 +115,17 @@ EP-6
 Monolith architecture: A monolithic architecture is a traditional model of a software program, which is built as a unified unit that is self-contained and independent from other applications
 
 microservices architecture : A microservices architecture, also simply known as microservices, is an architectural method that relies on a series of independently deployable services. These services have their own business logic and database with a specific goal. Updating, testing, deployment, and scaling occur within each service. 
+
+*Shimmer UI* 
+A shimmer UI is a version of the UI that doesn't contain actual content, but instead mimics the layout and shapes of the content that will eventually appear. It uses a gradient animation that creates a shimmering effect over the placeholders, giving the user a sense of motion and progress.
+
+Conditional rendering : A rendering on the basis of some conditions 
+
+useState() function when called , it render the whole body and update the value of the variable 
+
+useEffect() : If we have to do something after rendering a component then we use useeffect hook 
+first body component render after that useeffect called
+
+-- WhenEver a local state variable updates , react triggers a reconciliation cycle ( re-renders the component )
+
+-- Reconciliation Algorithm (React Fiber )
